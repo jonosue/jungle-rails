@@ -39,6 +39,7 @@
       <% @sorted.each do |review| %>
         <dd><strong>Rating:</strong> <%= review.rating %></dd>
         <dd><strong>Review:</strong> <%= review.description %></dd>
+        <dd><strong>Reviewer Name:</strong> <%= review.user.first_name %></dd>
         <% if current_user %>
         <%= link_to 'Delete', product_review_path(review.product_id, review.id), method: :delete, class: 'btn btn-danger' %>
         <% end %>

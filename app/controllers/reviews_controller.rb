@@ -4,16 +4,16 @@ class ReviewsController < ApplicationController
 
   def destroy
     @delete.destroy
-    redirect_to '/'
+    redirect_to product_path(@delete.product_id)
   end
 
   def create
     @review.user = current_user
     @review.product_id = params[:product_id]
     if @review.save
-      redirect_to '/'
+      redirect_to product_path(params[:product_id])
     else
-      redirect_to :back
+      redirect_to product_path(params[:product_id])
     end
   end
 
