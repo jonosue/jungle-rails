@@ -56,13 +56,13 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 ## Final Product
 
 !["Screenshot of Home Page"](https://raw.githubusercontent.com/jonosue/jungle-rails/master/docs/home-page.png)
-!["Screenshot of New User Registration"](https://raw.githubusercontent.com/jonosue/jungle-rails/master/docs/new-user-registration)
-!["Screenshot of Products in Cart"](https://raw.githubusercontent.com/jonosue/jungle-rails/master/docs/products-in-cart)
-!["Screenshot of Stripe Payment"](https://raw.githubusercontent.com/jonosue/jungle-rails/master/docs/stripe-payment)
-!["Screenshot of Order Confirmation"](https://raw.githubusercontent.com/jonosue/jungle-rails/master/docs/order-confirmation)
-!["Screenshot of Product with Reviews"](https://raw.githubusercontent.com/jonosue/jungle-rails/master/docs/write-review)
-!["Screenshot of a Submitted Review"](https://raw.githubusercontent.com/jonosue/jungle-rails/master/docs/rating-submitted)
-!["Screenshot of Product with No Reviews"](https://raw.githubusercontent.com/jonosue/jungle-rails/master/docs/product-with-no-reviews)
+!["Screenshot of New User Registration"](https://raw.githubusercontent.com/jonosue/jungle-rails/master/docs/new-user-registration.png)
+!["Screenshot of Products in Cart"](https://raw.githubusercontent.com/jonosue/jungle-rails/master/docs/products-in-cart.png)
+!["Screenshot of Stripe Payment"](https://raw.githubusercontent.com/jonosue/jungle-rails/master/docs/stripe-payment.png)
+!["Screenshot of Order Confirmation"](https://raw.githubusercontent.com/jonosue/jungle-rails/master/docs/order-confirmation.png)
+!["Screenshot of Product with Reviews"](https://raw.githubusercontent.com/jonosue/jungle-rails/master/docs/write-review.png)
+!["Screenshot of a Submitted Review"](https://raw.githubusercontent.com/jonosue/jungle-rails/master/docs/rating-submitted.png)
+!["Screenshot of Product with No Reviews"](https://raw.githubusercontent.com/jonosue/jungle-rails/master/docs/product-with-no-reviews.png)
 
 
 ## Contact
