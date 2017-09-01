@@ -136,7 +136,7 @@ cat3.products.create!({
 ## USERS
 
 User.destroy_all
-user_test = User.new(first_name: "John", last_name: "Smith", email: "john@gmail.com")
+user_test = User.new(first_name: "John", last_name: "Smith", email: "john@gmail.com", password_digest: "this_is_a_weak_password")
 user_test.save
 
 ## REVIEWS
