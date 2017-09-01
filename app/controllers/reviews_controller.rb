@@ -1,4 +1,5 @@
 class ReviewsController < ApplicationController
+  before_action :deny_access, :unless => current_user
   def create
     @review = Review.new(review_params)
     @review.user = current_user
