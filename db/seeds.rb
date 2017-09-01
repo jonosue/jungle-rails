@@ -33,6 +33,7 @@ cat3 = Category.find_or_create_by! name: 'Furniture'
 
 puts "Re-creating Products ..."
 
+Review.destroy_all
 Product.destroy_all
 
 cat1.products.create!({
@@ -143,7 +144,6 @@ user_test.save
 prod1 = Product.find_by! id: 1
 user1 = User.find_by! email: "john@gmail.com"
 
-Review.destroy_all
 prod1.reviews.create!({
   description: "I love this product!",
   rating: 3,
