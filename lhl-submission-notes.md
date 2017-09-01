@@ -1,0 +1,3 @@
+## NOTES  - Submission 01 <-- CURRENT
+
+- In this version of the submission, I fulfilled all of the baseline functional requirements. I also added a feature of my own choosing: the assignment guidelines did not instruct us to remove the ability to add a product to the cart if it is sold out. However, I decided to do this because it made sense to me. This is why you will not see an "Add" button for products on the product catalog index page if they have 0 quantity.
