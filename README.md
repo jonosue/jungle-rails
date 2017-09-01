@@ -2,7 +2,7 @@
 
 
 ## Background
-This project was completed as part of the Week 6 requirements while I was a student in the Web Development bootcamp at Lighthouse Labs. Jungle is a mini e-commerce application built with Rails 4.2 for the purposes of teaching Rails by example. This project was not just about learning a new language, ecosystem and framework. It was moreso a simulation of the real world, as I inherited an existing code base in a language / framework that I was not comfortable with. 
+This project was completed as part of the Week 6 requirements while I was a student in the Web Development bootcamp at Lighthouse Labs. Jungle is a mini e-commerce application built with Rails 4.2 for the purposes of teaching Rails by example. This project was not just about learning a new language, ecosystem and framework. It was moreso a simulation of the real world, as I inherited an existing code base in a language / framework that I was not comfortable with.
 
 
 ## Functional Requirements
@@ -14,15 +14,6 @@ There are multiple high-level goals to this project, as per Lighthouse Labs' cur
 - Use existing code style and approach to implement new features in unfamiliar territory
 - Apply previous learning tactics to research and become familiar with a new paradigm, language and framework
 - A simulation of the real world where feature and bug-fix requests are listed instead of step-by-step instructions on how to implement a solution
-
-
-## Final Product
-
-!["Screenshot of Home Page"](https://raw.githubusercontent.com/jonosue/chatty-app/master/docs/home-page.png)
-!["Screenshot of Home Page with Two Users Online"](https://raw.githubusercontent.com/jonosue/chatty-app/master/docs/two-users-online.png)
-!["Screenshot of Two Online Users Renaming Themselves"](https://raw.githubusercontent.com/jonosue/chatty-app/master/docs/users-rename.png)
-!["Screenshot of User 1 Broadcasting a Message"](https://raw.githubusercontent.com/jonosue/chatty-app/master/docs/user1-message-to-all.png)
-!["Screenshot of User 2 Broadcasting a Message"](https://raw.githubusercontent.com/jonosue/chatty-app/master/docs/user2-message-to-all.png)
 
 
 ## Getting Started
@@ -60,6 +51,18 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 * Spring
 * Stripe
 * Turbolinks
+
+
+## Final Product
+
+!["Screenshot of Home Page"](https://raw.githubusercontent.com/jonosue/jungle-rails/master/docs/home-page.png)
+!["Screenshot of New User Registration"](https://raw.githubusercontent.com/jonosue/jungle-rails/master/docs/new-user-registration)
+!["Screenshot of Products in Cart"](https://raw.githubusercontent.com/jonosue/jungle-rails/master/docs/products-in-cart)
+!["Screenshot of Stripe Payment"](https://raw.githubusercontent.com/jonosue/jungle-rails/master/docs/stripe-payment)
+!["Screenshot of Order Confirmation"](https://raw.githubusercontent.com/jonosue/jungle-rails/master/docs/order-confirmation)
+!["Screenshot of Product with Reviews"](https://raw.githubusercontent.com/jonosue/jungle-rails/master/docs/write-review)
+!["Screenshot of a Submitted Review"](https://raw.githubusercontent.com/jonosue/jungle-rails/master/docs/rating-submitted)
+!["Screenshot of Product with No Reviews"](https://raw.githubusercontent.com/jonosue/jungle-rails/master/docs/product-with-no-reviews)
 
 
 ## Contact
