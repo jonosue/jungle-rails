@@ -45,4 +45,31 @@ RSpec.describe User, type: :model do
     expect(@user.errors[:password]).to include("is too short (minimum is 6 characters)")
     end
   end
+  describe '.authenticate_with_credentials' do
+    it 'should log the user in if the credentials are correct' do
+      @user = User.new(first_name: "John", last_name: "Smith", email: "johnny123@gmail.com", password: "ABCDEF", password_confirmation: "ABCDEF")
+      @user.save!
+      expect(User.authenticate_with_credentials("johnny123@gmail.com", "ABCDEF")).to be_present
+    end
+    it 'should not log the user in if the email is wrong' do
+      @user = User.new(first_name: "John", last_name: "Smith", email: "johnny123@gmail.com", password: "ABCDEF", password_confirmation: "ABCDEF")
+      @user.save!
+      expect(User.authenticate_with_credentials("johnny1234@gmail.com", "ABCDEF")).not_to be_present
+    end
+    it 'should not log the user in if the password is wrong' do
+      @user = User.new(first_name: "John", last_name: "Smith", email: "johnny123@gmail.com", password: "ABCDEF", password_confirmation: "ABCDEF")
+      @user.save!
+      expect(User.authenticate_with_credentials("johnny123@gmail.com", "ABCDEFG")).not_to be_present
+    end
+    it 'should log the user in even if the email contains spaces' do
+      @user = User.new(first_name: "John", last_name: "Smith", email: "johnny1234@gmail.com", password: "ABCDEF", password_confirmation: "ABCDEF")
+      @user.save!
+      expect(User.authenticate_with_credentials("  johnny1234@gmail.com   ", "ABCDEF")).to be_present
+    end
+    it 'should log the user in even if the email is typed with a different case' do
+      @user = User.new(first_name: "John", last_name: "Smith", email: "johnny1234@gmail.com", password: "ABCDEF", password_confirmation: "ABCDEF")
+      @user.save!
+      expect(User.authenticate_with_credentials("  JOHNNY1234@gmail.com   ", "ABCDEF")).to be_present
+    end
+  end
 end
