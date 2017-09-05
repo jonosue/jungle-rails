@@ -41,8 +41,12 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 * Bcrypt
 * Bootstrap
 * Byebug
+* Capybara
+* Database_Cleaner
+* Faker
 * jQuery-Rails
 * Money-Rails
+* Poltergeist
 * PostgreSQL 9.x
 * Puma
 * Rails 4.2 [Rails Guide](http://guides.rubyonrails.org/v4.2/)
@@ -70,4 +74,4 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 Questions? Comments? Please tweet me at [@JonoSue](http://twitter.com/JonoSue).
 
 
-*README: Last updated September 1, 2017*
+*README: Last updated September 5, 2017*
